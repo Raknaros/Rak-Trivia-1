@@ -1,0 +1,15 @@
+#Serie y numero
+d = b.find('cbc:ID')
+            print(d.text)
+
+#Descripcion de los articulos
+ d = b.find('cbc:Description')
+            print(d.text)
+20545702798
+
+#Fecha emision
+           d = b.find('cbc:IssueDate')
+            print(d.text)
+#Tipo comprobante
+            d = b.find('InvoiceTypeCode')
+            print(int(d.text))
